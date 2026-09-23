@@ -7,6 +7,8 @@ redirect_from:
   - /about.html
 ---
 
+{% include base_path %}
+
 I am Junteng Liu, a first-year Ph.D. candidate at the HKUST NLP Group, Hong Kong University of Science and Technology (HKUST), where I am advised by Professor Junxian He. My research focuses on natural language processing and machine learning.
 
 I received my B.Eng. from Shanghai Jiao Tong University (SJTU) in June 2024, where I was also advised by Professor Junxian He during my undergraduate studies. I was awarded the Zhiyuan Honor Scholarship by Shanghai Jiao Tong University.
@@ -65,7 +67,7 @@ Publications
 
 6. Jinghan Zhang, Shiqi Chen, **Junteng Liu**, Junxian He. "Composing Parameter-Efficient Modules with Arithmetic Operations." *NeurIPS 2023*.
 
-A full list of my publications is available on my [publications page](/publications/) and on my [Google Scholar profile](https://scholar.google.com/citations?hl=en&user=tbK9jl4AAAAJ&view_op=list_works&sortby=pubdate).
+A full list of my publications is available on my [publications page]({{ base_path }}/publications/) and on my [Google Scholar profile](https://scholar.google.com/citations?hl=en&user=tbK9jl4AAAAJ&view_op=list_works&sortby=pubdate).
 
 Contact
 ======
